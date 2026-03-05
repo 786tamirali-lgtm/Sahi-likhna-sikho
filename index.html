@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>तामीर अली की रूहानी पाठशाला • अक्ल की जीत</title>
+    <!-- गूगल फॉन्ट्स -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Baloo+2:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f0c1f 0%, #1a1730 100%);
+            font-family: 'Poppins', 'Baloo 2', sans-serif;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* ===== हेडर ===== */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .floating-badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #2d1b0e;
+            padding: 15px 45px;
+            border-radius: 70px;
+            font-size: 1.5rem;
+            font-weight: 800;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+            border: 4px solid #fff;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 800;
+            background: linear-gradient(45deg, #fff, #f0e68c, #98fb98, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 6px 6px 0 rgba(0,0,0,0.4);
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .subhead {
+            font-size: 2.2rem;
+            color: #fff;
+            background: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 15px 60px;
+            border-radius: 70px;
+            backdrop-filter: blur(10px);
+            margin: 25px 0;
+            border: 3px solid #ffd700;
+            font-weight: 600;
+        }
+
+        /* ===== व्हाट्सएप ===== */
+        .whatsapp-section {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            padding: 30px;
+            border-radius: 80px;
+            margin: 30px auto 50px;
+            max-width: 850px;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.5);
+            border: 4px solid #fff;
+        }
+
+        .whatsapp-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .whatsapp-icon {
+            font-size: 4.5rem;
+            background: white;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 12px 0 #075E54;
+        }
+
+        .whatsapp-text h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: white;
+            margin: 0;
+        }
+
+        .whatsapp-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 35px;
+            border-radius: 70px;
+            display: inline-block;
+            margin-top: 10px;
+            border: 2px dashed #fff;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        .whatsapp-button {
+            background: white;
+            color: #075E54;
+            padding: 18px 45px;
+            border-radius: 70px;
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 10px 0 #075E54;
+            transition: 0.2s;
+        }
+
+        .whatsapp-button:hover {
+            transform: translateY(5px);
+            box-shadow: 0 5px 0 #075E54;
+        }
+
+        /* ===== स्पीच सेक्शन ===== */
+        .speech-section {
+            background: linear-gradient(145deg, #6a3093, #a044ff);
+            border-radius: 80px;
+            padding: 40px;
+            margin: 40px 0 50px;
+            border: 4px solid #ffd700;
+            box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+        }
+
+        .speech-header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .speech-header span {
+            font-size: 4rem;
+            background: rgba(255,255,255,0.2);
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid white;
+        }
+
+        .speech-header h2 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .speech-box {
+            background: rgba(255,255,255,0.95);
+            border-radius: 60px;
+            padding: 35px;
+            text-align: center;
+        }
+
+        .btn-start {
+            background: linear-gradient(45deg, #ffb347, #ff8c00);
+            border: none;
+            padding: 20px 50px;
+            border-radius: 80px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d1b0e;
+            cursor: pointer;
+            box-shadow: 0 12px 0 #9e601d;
+            transition: 0.1s;
+            border: 4px solid #fff;
+            margin-bottom: 25px;
+        }
+
+        .btn-start:active {
+            transform: translateY(6px);
+            box-shadow: 0 6px 0 #9e601d;
+        }
+
+        .status-box {
+            background: #f0f0f0;
+            border-radius: 40px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #status {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        #result {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #3f2b1b;
+            margin: 15px 0;
+            min-height: 100px;
+            background: #fff3dd;
+            padding: 20px;
+            border-radius: 50px;
+        }
+
+        /* भाषा-विशेष स्टाइल */
+        .hindi-text {
+            font-family: 'Baloo 2', cursive;
+            font-size: 2.2rem;
+        }
+        
+        .urdu-text-result {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 2.5rem;
+            direction: rtl;
+            display: inline-block;
+        }
+        
+        .english-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        .machine-note {
+            font-size: 1.3rem;
+            color: #888;
+            margin-top: 5px;
+            font-style: italic;
+            background: #e8e8e8;
+            padding: 8px 15px;
+            border-radius: 40px;
+        }
+
+        #detail {
+            font-size: 1.8rem;
+            color: #a56711;
+            font-weight: 600;
+            background: #fff3dd;
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+
+        .vibration-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            font-size: 1.3rem;
+            color: #555;
+        }
+
+        .vibration-dot {
+            width: 20px;
+            height: 20px;
+            background: #ff4444;
+            border-radius: 50%;
+            animation: vibrate 0.5s ease-in-out infinite;
+        }
+
+        @keyframes vibrate {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.5); background: #ffaa00; }
+        }
+
+        .aql-badge {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #2d1b0e;
+            padding: 8px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .language-tag {
+            display: inline-block;
+            padding: 4px 15px;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .tag-hindi { background: #FF9933; color: white; }
+        .tag-urdu { background: #2e7d32; color: white; }
+        .tag-english { background: #1e3c72; color: white; }
+
+        /* ===== भाषा सेक्शन ===== */
+        .lang-sections {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin-top: 60px;
+        }
+
+        .lang-section {
+            border-radius: 80px 80px 50px 50px;
+            padding: 40px 35px;
+            box-shadow: 0 35px 60px rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+            border: 4px solid;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 35px;
+            padding-bottom: 20px;
+            border-bottom: 5px solid;
+        }
+
+        .section-icon {
+            font-size: 5rem;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255,255,255,0.2);
+            border: 5px solid white;
+        }
+
+        .section-header h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin: 0;
+            color: white;
+            text-shadow: 5px 5px 0 rgba(0,0,0,0.4);
+        }
+
+        /* हिंदी सेक्शन */
+        .hindi-section {
+            background: linear-gradient(145deg, #FF9933, #FF5500);
+            border-color: #FFD700;
+        }
+        .hindi-section .section-header {
+            border-bottom-color: #FFD700;
+        }
+
+        /* अंग्रेज़ी सेक्शन */
+        .english-section {
+            background: linear-gradient(145deg, #1e3c72, #2a5c9a);
+            border-color: #00d4ff;
+        }
+        .english-section .section-header {
+            border-bottom-color: #00d4ff;
+        }
+
+        /* उर्दू सेक्शन */
+        .urdu-section {
+            background: linear-gradient(145deg, #2e7d32, #1b5e20);
+            border-color: #ffd54f;
+            direction: rtl;
+            font-family: 'Noto Nastaliq Urdu', serif;
+        }
+        .urdu-section .section-header {
+            border-bottom-color: #ffd54f;
+            direction: ltr;
+        }
+        .urdu-section .section-header h2 {
+            font-family: 'Noto Nastaliq Urdu', serif;
+        }
+        .urdu-section .lesson-card {
+            direction: rtl;
+            font-family: 'Noto Nastaliq Urdu', serif;
+        }
+
+        /* कार्ड ग्रिड */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .lesson-card {
+            background: rgba(255, 255, 255, 0.97);
+            backdrop-filter: blur(5px);
+            border-radius: 40px 40px 40px 15px;
+            padding: 28px 22px;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+            transition: 0.3s;
+            border: 3px solid white;
+        }
+
+        .lesson-card:hover {
+            transform: translateY(-12px) scale(1.02);
+            box-shadow: 0 30px 50px rgba(0,0,0,0.6);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 20px;
+        }
+
+        .card-header span {
+            font-size: 3.2rem;
+            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #fff;
+            box-shadow: 0 6px 0 #b0b0b0;
+        }
+
+        .card-header h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #222;
+            margin: 0;
+        }
+
+        .urdu-text {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 2rem;
+            background: #2e7d32;
+            color: #f7ffe1;
+            display: inline-block;
+            padding: 8px 30px;
+            border-radius: 60px;
+            margin: 8px 0;
+        }
+
+        .hindi-explanation {
+            font-family: 'Baloo 2', cursive;
+            font-size: 1.2rem;
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 5px 0;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .example-box {
+            background: #f8f9fa;
+            border-radius: 30px;
+            padding: 20px;
+            margin: 18px 0;
+            border-left: 8px solid;
+            font-size: 1.25rem;
+        }
+
+        .hindi-section .example-box { border-left-color: #FF9933; }
+        .english-section .example-box { border-left-color: #1e3c72; }
+        .urdu-section .example-box { border-left-color: #2e7d32; }
+
+        .highlight {
+            background: #FFE5B4;
+            padding: 4px 18px;
+            border-radius: 40px;
+            display: inline-block;
+            margin: 4px;
+            font-weight: 700;
+        }
+
+        .tip {
+            background: #222;
+            color: #FFD700;
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            margin-top: 15px;
+            border-left: 8px solid #FFA500;
+        }
+
+        .spelling-correct {
+            color: #27ae60;
+            font-weight: 700;
+        }
+        .spelling-wrong {
+            color: #e74c3c;
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+
+        /* ===== फुटर ===== */
+        .footer {
+            margin-top: 80px;
+            text-align: center;
+            background: linear-gradient(145deg, #1a237e, #311b92);
+            padding: 60px 30px;
+            border-radius: 120px 120px 50px 50px;
+            border: 5px solid #ffd700;
+            color: white;
+        }
+
+        .footer h3 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            color: #FFD700;
+        }
+
+        .contact-footer {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 100px;
+            display: inline-block;
+            margin: 30px 0;
+        }
+
+        .footer-number {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #25D366;
+            background: white;
+            padding: 18px 60px;
+            border-radius: 80px;
+            display: inline-block;
+            text-decoration: none;
+            border: 4px solid #ffd700;
+        }
+
+        .signature {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 3.2rem;
+            font-weight: 800;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 30px 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 3.2rem; }
+            .section-header h2 { font-size: 2.4rem; }
+            .section-icon { width: 80px; height: 80px; font-size: 3.5rem; }
+            .whatsapp-number { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- हेडर -->
+    <div class="header">
+        <div class="floating-badge">
+            🎙️ तामीर अली की रूहानी पाठशाला
+        </div>
+        <h1>अक्ल की जीत</h1>
+        <div class="subhead">
+            🇮🇳 हिंदी • 🇬🇧 ENGLISH • 🇵🇰 اُردو
+        </div>
+    </div>
+
+    <!-- व्हाट्सएप -->
+    <div class="whatsapp-section">
+        <div class="whatsapp-content">
+            <div class="whatsapp-icon">📱</div>
+            <div class="whatsapp-text">
+                <h3>सुधार व सुझाव के लिए संपर्क करें</h3>
+                <div class="whatsapp-number">+91 87972 21991</div>
+            </div>
+            <a href="https://wa.me/918797221991" class="whatsapp-button" target="_blank">
+                <span>📲</span> WhatsApp करें
+            </a>
+        </div>
+    </div>
+
+    <!-- आवाज़ पहचान सेक्शन -->
+    <div class="speech-section">
+        <div class="speech-header">
+            <span>🎤</span>
+            <h2>आवाज़ और भाषा पहचान</h2>
+        </div>
+        
+        <div class="speech-box">
+            <div class="aql-badge">
+                🤔 मशीन सुनती है, अक्ल सुधारती है
+            </div>
+            
+            <button class="btn-start" onclick="startRecognition()">
+                🔊 बोलना शुरू करें
+            </button>
+            
+            <p style="font-size: 1.3rem; color: #666; margin-bottom: 20px;">
+                कोई शब्द बोलें: <strong>गांधी, खुदा, knowledge, चांद, गलत, जमीन</strong> आदि
+            </p>
+
+            <div class="status-box">
+                <div id="status">⏳ इंतज़ार में...</div>
+                <div id="result" class="result"></div>
+                <div id="machine-note" class="machine-note"></div>
+                <div id="detail" class="detail"></div>
+            </div>
+
+            <div class="vibration-indicator">
+                <span>📳 वाइब्रेशन:</span>
+                <div class="vibration-dot"></div>
+                <span id="vibration-text">अलग-अलग शब्दों पर अलग कंपन</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- तीनों भाषा सेक्शन -->
+    <div class="lang-sections">
+
+        <!-- हिंदी सेक्शन -->
+        <div class="lang-section hindi-section">
+            <div class="section-header">
+                <div class="section-icon">🇮🇳</div>
+                <h2>हिंदी वर्णमाला</h2>
+            </div>
+            
+            <div class="card-grid">
+                <!-- चंद्रबिंदु vs बिंदी -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>🌙</span>
+                        <h3>चंद्रबिंदु (ँ) vs बिंदी (ं)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><span class="highlight">बिंदी (ं)</span> – सिर्फ नाक से: गंगा, चंदा, रंग, संत</p>
+                        <p><span class="highlight">चंद्रबिंदु (ँ)</span> – नाक+मुँह: आँख, गाँधी, चाँद, हँसना, पाँच</p>
+                    </div>
+                    <div class="tip">
+                        💡 प्रयोग: 'चाँद' बोलो (नाक पर कंपन) vs 'चंदा' बोलो
+                    </div>
+                </div>
+
+                <!-- स, श, ष -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>स</span>
+                        <h3>स • श • ष</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><span class="highlight">स (दांत)</span> – सरल, सत्य, सूरज</p>
+                        <p><span class="highlight">श (तालु)</span> – शक्ति, शांति, आकाश</p>
+                        <p><span class="highlight">ष (मुड़ी जीभ)</span> – वर्षा, संतोष, मनुष्य</p>
+                    </div>
+                </div>
+
+                <!-- ड़/ढ़ -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ड़</span>
+                        <h3>ड • ढ  और  ड़ • ढ़</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>ड/ढ</b> – डमरू, ढोल (शुरू में)</p>
+                        <p><b>ड़/ढ़</b> – सड़क, पढ़ना, बढ़िया (बीच/अंत, उछाल)</p>
+                    </div>
+                </div>
+
+                <!-- व vs ब -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>व</span>
+                        <h3>व (Va) vs ब (Ba)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>व</b> – वन, विचार, विवेक (होंठ नहीं मिलते)</p>
+                        <p><b>ब</b> – बच्चा, बात, बिसात (होंठ मिलते हैं)</p>
+                    </div>
+                </div>
+
+                <!-- है/हैं, कि/की, में/मैं -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>🔴</span>
+                        <h3>बिंदी-मात्रा नियम</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>है</b> (एक) – बुलबुला है</p>
+                        <p><b>हैं</b> (अनेक/सम्मान) – तारे हैं / तामीर अली हैं</p>
+                        <p><b>कि</b> (that) – कहा कि</p>
+                        <p><b>की</b> (की) – राम की</p>
+                        <p><b>में</b> (अंदर) – गिलास में</p>
+                        <p><b>मैं</b> (I) – मैं हूँ</p>
+                        <p><b>ओर</b> (दिशा) – उधर की ओर</p>
+                        <p><b>और</b> (and) – राम और श्याम</p>
+                    </div>
+                </div>
+
+                <!-- र के रूप - रेल (्र) -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>र</span>
+                        <h3>र के रूप (रेल, पदेन, ऋ)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><span class="highlight">रेल (्र) सिर पर</span> – मार्ग, कर्म, धर्म</p>
+                        <p><span class="highlight">पदेन (्र) पैरों में</span> – प्रमाण, क्रम, श्रद्धा</p>
+                        <p><span class="highlight">ऋ (ृ) झूला</span> – कृपा, हृदय, मृत्यु</p>
+                        <p><span class="highlight">रु vs रू</span> – रुपया (रु), रूह (रू)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- अंग्रेज़ी सेक्शन -->
+        <div class="lang-section english-section">
+            <div class="section-header">
+                <div class="section-icon">🇬🇧</div>
+                <h2>ENGLISH GRAMMAR</h2>
+            </div>
+            
+            <div class="card-grid">
+                <!-- Vowels & C/G Rules -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>A</span>
+                        <h3>Vowels & C/G Rules</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><span class="highlight">Vowels (A,E,I,O,U)</span> – B + AT = BAT</p>
+                        <p><b>C rule:</b> City (स), Cat (क)</p>
+                        <p><b>G rule:</b> Gentle (ज), Gun (ग)</p>
+                    </div>
+                </div>
+
+                <!-- Silent Letters -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>🔇</span>
+                        <h3>Silent Letters</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>K</b> – Knowledge, Knee (K चुप)</p>
+                        <p><b>W</b> – Write, Wrong (W चुप)</p>
+                        <p><b>PH = F</b> – Phone, Photo</p>
+                        <p><b>GH = F</b> – Laugh, Enough</p>
+                    </div>
+                </div>
+
+                <!-- The + Double Letters -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>🎤</span>
+                        <h3>THE & Double Letters</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>The End</b> – दी एन्ड (vowel के आगे)</p>
+                        <p><b>The Bat</b> – द बैट (consonant के आगे)</p>
+                        <p><b>Run+ing</b> – Running (double N)</p>
+                    </div>
+                </div>
+
+                <!-- Spelling Mistakes -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>✏️</span>
+                        <h3>Spelling Mistakes</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><span class="spelling-wrong">Recieve</span> → <span class="spelling-correct">Receive</span></p>
+                        <p><span class="spelling-wrong">Seperate</span> → <span class="spelling-correct">Separate</span></p>
+                        <p><span class="spelling-wrong">Definately</span> → <span class="spelling-correct">Definitely</span></p>
+                        <p><span class="spelling-wrong">Calender</span> → <span class="spelling-correct">Calendar</span></p>
+                        <p><span class="spelling-wrong">Febuary</span> → <span class="spelling-correct">February</span></p>
+                        <p><span class="spelling-wrong">Wensday</span> → <span class="spelling-correct">Wednesday</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- उर्दू सेक्शन -->
+        <div class="lang-section urdu-section">
+            <div class="section-header">
+                <div class="section-icon">🇵🇰</div>
+                <h2>اُردو حروفِ تہجی</h2>
+            </div>
+            
+            <div class="card-grid">
+                <!-- अलिफ़, ऐन, हम्ज़ा -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ا</span>
+                        <h3>الِف، عَین، ہَمزہ</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>الِف (ا)</b> – سیدھی آواز (اللہ، عقل)</p>
+                        <p><b>عَین (ع)</b> – حلق کی گونج (علم، عزت)</p>
+                        <p><b>ہَمزہ (ء)</b> – آواز کا جھٹکا (آؤ، چائے)</p>
+                    </div>
+                </div>
+
+                <!-- ख़ vs ख -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>خ</span>
+                        <h3>خ (خدا) vs کھ</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>خ (خ)</b> – حلق کی گہری آواز (خدا، خاص)</p>
+                        <p><b>کھ</b> – عام آواز (کھانا، کھیل)</p>
+                    </div>
+                </div>
+
+                <!-- क़ vs क -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ق</span>
+                        <h3>ق (قاف) vs ک (کاف)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>ق</b> – قلم، قرآن، عقل</p>
+                        <p><b>ک</b> – کتاب، کام</p>
+                    </div>
+                </div>
+
+                <!-- ग़ vs ग -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>غ</span>
+                        <h3>غ (غین) vs گ (گاف)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>غ</b> – غیب، غلط، غریب</p>
+                        <p><b>گ</b> – گلاب، گانا</p>
+                    </div>
+                </div>
+
+                <!-- ज़ vs ज -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ز</span>
+                        <h3>ز (زے) vs ج (جیم)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>ز</b> – زمین، زندگی، زور</p>
+                        <p><b>ج</b> – جہاز، جواب</p>
+                    </div>
+                </div>
+
+                <!-- दो 'ह' -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ہ</span>
+                        <h3>دو 'ہ' (گول ہ، دو چشمی)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>گول ہ (ہ)</b> – ہوا، اللہ</p>
+                        <p><b>دو چشمی (ھ)</b> – بھائی، پھل</p>
+                    </div>
+                </div>
+
+                <!-- दो 'त' -->
+                <div class="lesson-card">
+                    <div class="card-header">
+                        <span>ت</span>
+                        <h3>دو 'ت' (ت اور ط)</h3>
+                    </div>
+                    <div class="example-box">
+                        <p><b>ت</b> – نرم (تصویر، تارا)</p>
+                        <p><b>ط</b> – بھاری (طوطا، طاقت، توحید)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- फुटर -->
+    <div class="footer">
+        <h3>🏆 बच्चों के लिए अंतिम संदेश</h3>
+        <p style="font-size: 1.6rem; max-width: 1000px; margin: 0 auto 25px;">
+            "हिंदी، اُردو and English — तीनों भाषाओं को अक्ल से समझो۔ ہر زبان کا اپنا رسم الخط ہے۔"
+        </p>
+        
+        <div class="contact-footer">
+            <p style="font-size: 2rem; margin-bottom: 20px;">📞 सुधार / सुझाव के लिए:</p>
+            <a href="https://wa.me/918797221991" class="footer-number" target="_blank">
+                +91 87972 21991
+            </a>
+        </div>
+
+        <div class="signature">
+            786 تامیر علی — عقل کی جیت
+        </div>
+        
+        <div style="font-size: 2.8rem; margin: 30px 0; color: #FFD700;">
+            ⚡ अक्ल की जीत ⚡
+        </div>
+    </div>
+</div>
+
+<!-- स्पीच रिकग्निशन स्क्रिप्ट -->
+<script>
+    const resultDiv = document.getElementById('result');
+    const detailDiv = document.getElementById('detail');
+    const statusDiv = document.getElementById('status');
+    const vibrationText = document.getElementById('vibration-text');
+    const machineNote = document.getElementById('machine-note');
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    
+    if (!SpeechRecognition) {
+        statusDiv.innerText = "❌ आपका ब्राउज़र स्पीच रिकग्निशन सपोर्ट नहीं करता। Chrome या Edge उपयोग करें।";
+    } else {
+        const recognition = new SpeechRecognition();
+        recognition.lang = 'hi-IN';
+        recognition.continuous = false;
+        recognition.interimResults = false;
+
+        window.startRecognition = function() {
+            try {
+                recognition.start();
+                statusDiv.innerText = "🎤 सुन रहा हूँ... बोलिए";
+                resultDiv.innerHTML = "";
+                detailDiv.innerText = "";
+                machineNote.innerHTML = "";
+                vibrationText.innerText = "वाइब्रेशन शुरू...";
+            } catch (e) {
+                statusDiv.innerText = "⚠️ माइक्रोफोन एक्सेस में समस्या।";
+            }
+        };
+
+        recognition.onresult = (event) => {
+            let machineHeard = event.results[0][0].transcript.toLowerCase().trim();
+            
+            // भाषा पहचान और सुधार
+            let result = identifyAndCorrect(machineHeard);
+            
+            // स्क्रीन पर दिखाएँ
+            resultDiv.innerHTML = result.html;
+            
+            machineNote.innerHTML = `🤖 मशीन ने सुना: "${machineHeard}" | 🧠 भाषा: ${result.language}`;
+            
+            // वाइब्रेशन और विश्लेषण
+            analyzeWord(machineHeard, result.language);
+        };
+
+        recognition.onerror = (event) => {
+            statusDiv.innerText = "❌ त्रुटि: " + event.error;
+        };
+
+        recognition.onend = () => {
+            statusDiv.innerText = "✅ सुनना समाप्त। फिर से बोलने के लिए बटन दबाएँ।";
+        };
+
+        function identifyAndCorrect(word) {
+            // उर्दू शब्द पहचान
+            if (word.includes('खुदा') || word.includes('ख़ुदा') || word.includes('khuda')) {
+                return {
+                    html: '<span class="urdu-text-result">خدا</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            if (word.includes('गलत') || word.includes('ग़लत') || word.includes('galat')) {
+                return {
+                    html: '<span class="urdu-text-result">غلط</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            if (word.includes('जमीन') || word.includes('ज़मीन') || word.includes('zameen')) {
+                return {
+                    html: '<span class="urdu-text-result">زمین</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            if (word.includes('जिंदगी') || word.includes('ज़िंदगी') || word.includes('zindagi')) {
+                return {
+                    html: '<span class="urdu-text-result">زندگی</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            if (word.includes('कलम') || word.includes('क़लम') || word.includes('kalam')) {
+                return {
+                    html: '<span class="urdu-text-result">قلم</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            if (word.includes('अक्ल') || word.includes('अक़्ल') || word.includes('aql')) {
+                return {
+                    html: '<span class="urdu-text-result">عقل</span> <span class="language-tag tag-urdu">🇵🇰 اُردو</span>',
+                    language: 'urdu'
+                };
+            }
+            
+            // अंग्रेज़ी शब्द पहचान
+            if (word.includes('knowledge') || word.includes('नॉलेज') || word.includes('नालेज')) {
+                return {
+                    html: '<span class="english-text">Knowledge</span> <span class="language-tag tag-english">🇬🇧 ENGLISH</span>',
+                    language: 'english'
+                };
+            }
+            if (word.includes('write') || word.includes('राइट')) {
+                return {
+                    html: '<span class="english-text">Write (W is silent)</span> <span class="language-tag tag-english">🇬🇧 ENGLISH</span>',
+                    language: 'english'
+                };
+            }
+            if (word.includes('phone') || word.includes('फोन')) {
+                return {
+                    html: '<span class="english-text">Phone (PH = F)</span> <span class="language-tag tag-english">🇬🇧 ENGLISH</span>',
+                    language: 'english'
+                };
+            }
+            
+            // हिंदी शब्द पहचान (चंद्रबिंदु सुधार के साथ)
+            if (word.includes('गांधी') || word.includes('गान्धी')) {
+                return {
+                    html: '<span class="hindi-text">गाँधी</span> <span class="language-tag tag-hindi">🇮🇳 हिंदी</span>',
+                    language: 'hindi'
+                };
+            }
+            if (word.includes('चांद')) {
+                return {
+                    html: '<span class="hindi-text">चाँद</span> <span class="language-tag tag-hindi">🇮🇳 हिंदी</span>',
+                    language: 'hindi'
+                };
+            }
+            if (word.includes('आंख')) {
+                return {
+                    html: '<span class="hindi-text">आँख</span> <span class="language-tag tag-hindi">🇮🇳 हिंदी</span>',
+                    language: 'hindi'
+                };
+            }
+            if (word.includes('हंसना')) {
+                return {
+                    html: '<span class="hindi-text">हँसना</span> <span class="language-tag tag-hindi">🇮🇳 हिंदी</span>',
+                    language: 'hindi'
+                };
+            }
+            
+            // डिफॉल्ट - हिंदी
+            return {
+                html: `<span class="hindi-text">${word}</span> <span class="language-tag tag-hindi">🇮🇳 हिंदी</span>`,
+                language: 'hindi'
+            };
+        }
+
+        function analyzeWord(word, language) {
+            let detail = "";
+            let vibration = [100];
+            
+            if (language === 'urdu') {
+                if (word.includes('खुदा') || word.includes('ख़ुदा')) {
+                    detail = "🔴 उर्दू अक्षर 'خ' - गले की गहरी आवाज़";
+                    vibration = [100, 50, 100];
+                } else if (word.includes('गलत') || word.includes('ग़लत')) {
+                    detail = "🔴 उर्दू अक्षर 'غ' - गले से रगड़";
+                    vibration = [100, 30, 100, 30, 100];
+                } else if (word.includes('जमीन') || word.includes('ज़मीन') || word.includes('जिंदगी')) {
+                    detail = "🔴 उर्दू अक्षर 'ز' - दांतों की झनझनाहट";
+                    vibration = [200, 50, 50, 200];
+                } else if (word.includes('अक्ल') || word.includes('अक़्ल')) {
+                    detail = "📿 उर्दू अक्षर 'ع' और 'ق' - गले की गहराई";
+                    vibration = [300, 100, 300];
+                } else {
+                    detail = "✅ उर्दू शब्द पहचाना गया";
+                    vibration = [100];
+                }
+            }
+            else if (language === 'english') {
+                detail = "🔇 English - Silent Letters और नियम";
+                vibration = [50];
+            }
+            else if (language === 'hindi') {
+                if (word.includes('चांद') || word.includes('चाँद') || word.includes('आंख') || word.includes('गांधी')) {
+                    detail = "🌙 हिंदी चंद्रबिंदु (ँ) - नाक+मुँह की गूँज";
+                    vibration = [100, 50, 300];
+                } else {
+                    detail = "✅ हिंदी शब्द पहचाना गया";
+                    vibration = [100];
+                }
+            }
+            
+            detailDiv.innerText = detail;
+            vibrationText.innerText = "📳 वाइब्रेशन: " + vibration.length + " बार कंपन";
+            
+            if (navigator.vibrate) {
+                navigator.vibrate(vibration);
+            }
+        }
+    }
+</script>
+</body>
+</html>
